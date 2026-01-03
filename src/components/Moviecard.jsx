@@ -1,7 +1,7 @@
 import React from 'react'
-import '../css/Moviecard.css'
+import '../css/MovieCard.css'
 import { useMovieContext } from '../context/MovieContext'
-const Moviecard = ({movie}) => {
+const MovieCard = ({movie}) => {
 const {isFavorite, addToFavorites, removeFromFavorites} = useMovieContext()
 const favorite = isFavorite(movie.id)
 function onFavClick(e){
@@ -31,4 +31,4 @@ function onFavClick(e){
   )
 }
 
-export default Moviecard
+export default MovieCard

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Moviecard from '../components/moviecard'
-import NavBar from '../components/NavBar';
+import MovieCard from '../components/MovieCard'
+import Navbar from '../components/NavBar';
 import '../css/Home.css'
 import { searchMovies, getPopularMovies } from '../services/api';
 
@@ -63,7 +63,7 @@ useEffect(()=>{
        <div className='home-grid'>
             {movies.map((movie)=>{
             //    return movie.title.toLowerCase().includes(searchQuery.toLowerCase()) && 
-           return <Moviecard movie={movie} key={movie.id} />
+           return <MovieCard movie={movie} key={movie.id} />
             })}
       </div>  }
     </div>
