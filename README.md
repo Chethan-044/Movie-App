@@ -18,6 +18,7 @@ Users can browse movies, add them to a favorites list, remove them when needed, 
 
 The project focuses on mastering **React fundamentals**, especially **Hooks** and **Context API**, to manage both local and global state efficiently without prop drilling.
 
+#Live Demo : https://movie-app-git-main-chethan-044s-projects.vercel.app
 ---
 
 ## 🚀 Features
